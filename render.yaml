@@ -9,8 +9,9 @@ services:
         value: 3.9.2
     healthCheckPath: /
     autoDeploy: true
-
+    plan: free 
 databases:
   - name: ew_db
+    plan: starter
     databaseName: ew_tracker
     user: ew_tracker_user
